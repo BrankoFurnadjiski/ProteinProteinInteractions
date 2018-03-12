@@ -100,7 +100,7 @@ print("(" + time.strftime("%c") + ")  Reading GOA...")
 
 # Filling uniMapping dictionary
 for line in GOAHuman:
-	if counter <= 12:
+	if counter < 12:
 		counter += 1
 		continue
 	parts = line.split("\t")
